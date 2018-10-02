@@ -39,5 +39,9 @@ Notice about this example:
 words=input("Please enter a string of text (the bigger the better): ")
 print("The distribution of characters in \"{0}\" is: ".format(words))
 alphabet=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-nums=(int(words.count('x')))
-print(nums*'x')
+# nums=(int(words.count('x'))) #
+# print(nums*'x') #
+
+letters = words.split()
+abcletters = letters.sort()
+print(abcletters)
