@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Nathan Subrahmanian
-Credit: N/A
+Credit: https://stackoverflow.com/questions/4978787/how-to-split-a-string-into-array-of-characters
 
 Assignment:
 
@@ -42,6 +42,4 @@ alphabet=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r
 # nums=(int(words.count('x'))) #
 # print(nums*'x') #
 
-letters = words.split()
-abcletters = letters.sort()
-print(abcletters)
+print(list(words))
