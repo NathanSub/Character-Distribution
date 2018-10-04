@@ -45,9 +45,9 @@ lines = []
 
 allletters = "abcdefghijklmnopqrstuvwxyz"
 for i in allletters:
-    lines.append(sring.count(i)*i)
+    lines.append(words.count(i)*i)
     
-mxlen = len(words)
+maxlen = len(words)
 while maxlen > 0:
     for line in lines:
         if len(line) == maxlen:
